@@ -1,0 +1,153 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    margin: 0;
+}
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 0 15px;
+    box-sizing: border-box;
+    height: 10%;
+    align-items: center;
+}
+header p {
+    text-align: start;
+    display: inline;
+}
+.main-navigation ul {
+    text-align: end;
+}
+.main-navigation ul li {
+    display: inline;
+    text-transform: uppercase;
+    margin: 5px 20px;
+    font-size: 0.75rem;
+}
+.bg-gradient-green {
+    background: rgba(34, 195, 107, 1);
+    background: linear-gradient(135deg, rgba(34, 195, 107, 1) 0%, rgba(67, 203, 205, 1) 100%);
+    height: 150vh;
+}
+section {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+
+.section-2{
+    height: 120vh;
+}
+img.size-400{
+    height: 600px;
+
+}
+
+h1 {
+    color:white;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 95%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.fdescription{
+    box-sizing: border-box;
+    margin-left: 120px;
+
+}
+
+.hpimg{
+    box-sizing: border-box;
+    margin-left: -100px;
+}
+
+.pfsection{
+    color: white;
+    font-size: 1.05em;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button{
+    background-color:white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:0.7em 1.5em 0.7em 1.5em;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.purchase-button{
+    margin-right: 20px;
+}
+
+.read-button{
+    background-color: transparent;
+    color: white;
+}
+
+.buttons{
+    margin-top: 40px;
+}
+
+.sdescription{
+    flex: 0 0 40%;
+
+}
+
+h2{
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+.p1ssection{
+    font-size: 1.1em;
+    line-height: 150%;
+    color: #555;
+}
+
+.p2ssection{
+    font-size: 0.85em;
+    line-height: 170%;
+    color: #555;
+}
+
+.continue-button{
+    color: #43cbcd;
+    border: 2px solid #43cbcd;
+    margin-top: 20px;
+}
+
+.buy-button{
+    font-size: 0.9em;
+    font-weight: 500;
+    border:none;
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    margin-right: 20px;
+}
+
+
+.main-navigation ul li:hover {
+    color: #ddd;
+    cursor:pointer;
+}
+
+.buy-button:hover{
+    background-color: #ddd;
+    cursor:pointer;
+}
